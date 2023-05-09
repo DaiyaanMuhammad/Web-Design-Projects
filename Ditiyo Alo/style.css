@@ -1,0 +1,218 @@
+@import url('https://fonts.maateen.me/solaiman-lipi/font.css');
+*{
+    font-family: 'SolaimanLipi', sans-serif;
+}
+.header{
+    display:inline-block;
+    width: 100%;
+    font-family:'Bangla', Arial, sans-serif !important;
+}
+.header #logo{
+    position:relative;
+    top: -40px;
+    font-size: 80px;
+    margin: 0px;
+    text-align: center;
+}
+
+.header #dui{
+    font-size: 8rem;
+    color: crimson;
+}
+
+button{
+    background-color: rgb(211, 73, 101);
+    border: 0.5rem  solid rgb(211, 73, 101);
+    border-radius: 0.5rem;
+    color:white;
+}
+button:hover{
+    background-color: crimson;
+    border-color: crimson;
+}
+button:active{
+    background-color: red;
+    border-color: red;
+}
+
+.header .login{
+    float: right;
+}
+
+.header p{
+    font-size: 18px;
+    position:relative;
+    top: -20px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+hr{
+    height: 3px;
+    background-color: rgb(61, 61, 61);
+    margin: 0px;
+}
+/* nav-bar */
+.nav-bar{
+    width: 90%;
+    max-width: 1000px;
+    margin:auto;
+
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 1rem;
+
+    text-align: center;
+    font-size: 1.125rem;
+    list-style: none;
+
+    padding: 0px;
+    margin: 0px;
+}
+
+nav li{
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+nav a{
+    text-decoration: none;
+    color:black;
+}
+nav a:visited{
+    color: black;
+}
+nav a:hover{
+    color: crimson;
+}
+nav a:active{
+    color: red;
+}
+
+/* main */
+
+main{
+    width: 100%;
+    max-width: 1200px;
+    margin:auto;
+}
+
+main .news-category a{
+    font-size: 1.15rem;
+    text-decoration: none;
+    color:rgb(55, 107, 206)
+}
+
+.description{
+    margin:0;
+    padding: 0;
+    position:relative;
+    top: -10px;
+    font-size:1.35rem;
+}
+
+.headline{
+    margin:0;
+    position:relative;
+    top: -10px;
+    font-size:2.5rem;
+}
+
+.author{
+    position:relative;
+    top: -15px;
+}
+.place{
+    font-style:italic;
+}
+
+/* article */
+
+.article{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+figcaption{
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+.article figure{
+    margin: 1rem 0;
+    width: 100%;
+    grid-column: 1 / 3;
+    align-content: center;
+}
+
+.articleContent{
+    margin: 0; 
+    font-size:20px;
+    text-align: justify;
+    
+    grid-column: 1 / 3;
+}
+
+.sideContent{
+    margin: 0;
+    padding: 15px;
+    grid-row: auto/ span 2;
+}
+
+/* comment section */
+
+.commentSection h2{ font-size: 1.75rem; }
+
+.commentInfo{
+    padding-top: 20px;
+}
+
+.accInfo{
+    float:right;
+    text-transform:uppercase;
+    text-decoration:none;
+    color:white;
+}
+
+.comment-box{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.comment-box input{
+    height: 28px;
+    width:90%;
+    font-size: 1rem;
+    border-top: 0;
+    border-left:0;
+    border-right: 0;
+    border-color:rgb(211, 73, 101);
+}
+
+input:focus{
+    border-top: 0;
+    border-left:0;
+    border-right: 0;
+    border-color:crimson
+}
+
+.comment-box button{
+    float: right;
+}
+
+
+/* footer */
+
+#footer{
+    height:2px;
+    margin: 1.2rem 0;
+}
+
+footer p{
+    text-align:center;
+}

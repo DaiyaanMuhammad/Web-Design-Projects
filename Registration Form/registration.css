@@ -1,0 +1,79 @@
+button{float: right;}
+
+h1{font-size: 3rem}
+
+h2{font-size: 1.75rem}
+
+h3{font-size: 1.5rem}
+
+#instruction{font-size: 0.75rem}
+
+label{font-style: bold}
+
+hr{
+    height: 2px;
+    background-color: grey;
+}
+
+h1, h2, h3{
+    margin: 0.75rem 0;
+    opacity: 0.5;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+    max-width: 1000px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type=text], input[type=email], input[type=number], input[type=date], input[type=tel]{
+    display:block;
+    width: 95%;
+    height: 25px;
+    border: 2px solid grey;
+    opacity: 0.5;
+}
+
+select{
+    display:block;
+    width: 95%;
+    height: 25px;
+    border: 2px solid grey;
+    opacity: 0.5;
+}
+
+.input-holder-3{
+    display:inline-block;
+    width: 32%;
+}
+.input-holder-2{
+    display:inline-block;
+    width: 49%;
+}
+.input-holder-full{
+    display:inline-block;
+    width: 100%;
+}
+
+#employment-checkbox{
+    float: left;
+    margin-top: 20px;
+}
+
+/* .buttons{
+    width: 110px;
+    margin: auto;
+    padding: 20px;
+} */
+
+.footer-cards .card .content button{
+    display: block;
+    min-width: 100%;
+}
